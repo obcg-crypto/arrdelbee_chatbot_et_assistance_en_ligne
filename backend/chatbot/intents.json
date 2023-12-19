@@ -1,0 +1,486 @@
+{
+    "intents": [
+        {
+            "tag": "Salutations",
+            "patterns": [
+                "Salut",
+                "Comment ça va",
+                "Y a-t-il quelqu'un ?",
+                "Bonjour",
+                "Bonne journée",
+                "Quoi de neuf",
+                "Comment ça va",
+                "Hey",
+                "Quoi de neuf"
+            ],
+            "responses": [
+                "Salut !",
+                "Content de te revoir !",
+                "Salut, comment puis-je t'aider ?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Au revoir",
+            "patterns": [
+                "ciao",
+                "à bientôt",
+                "au revoir",
+                "À plus tard",
+                "Au revoir",
+                "Je pars",
+                "Salut",
+                "Bonne journée",
+                "On se parle plus tard",
+                "ttyl",
+                "Je dois y aller",
+                "gtg"
+            ],
+            "responses": [
+                "Triste de te voir partir :(",
+                "On se parle plus tard",
+                "Au revoir !",
+                "Reviens bientôt"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Présentation d'ARRDELBEE",
+            "patterns": [
+                "Qu'est-ce que la plateforme ARRDELBEE ?",
+                "Pouvez-vous définir ce qu'est la plateforme ARRDELBEE ?",
+                "Comment décririez-vous la plateforme ARRDELBEE ?",
+                "Pourriez-vous m'expliquer ce qu'est la plateforme ARRDELBEE ?",
+                "Quelle est la nature de la plateforme ARRDELBEE ?",
+                "C'est quoi la plateforme ARRDELLBEE",
+                "Pourriez-vous me donner des informations sur la plateforme ARRDELBEE ?",
+                "Quelle est la définition de la plateforme ARRDELBEE ?",
+                "Comment pouvez-vous caractériser la plateforme ARRDELBEE ?",
+                "J'aimerais en savoir plus sur la plateforme ARRDELBEE, pourriez-vous expliquer ?",
+                "Peux-tu me dire ce qu'est exactement la plateforme ARRDELBEE ?",
+                "Quels sont les détails de la plateforme ARRDELBEE que vous pourriez partager ?",
+                "Pouvez-vous décrire la plateforme ARRDELBEE en détail ?",
+                "Pourriez-vous fournir une explication approfondie de la plateforme ARRDELBEE ?",
+                "Expliquez-moi la nature de la plateforme ARRDELBEE, s'il vous plaît.",
+                "Qu'est-ce qui caractérise la plateforme ARRDELBEE, selon vous ?"
+            ],
+            "responses": [
+                "ARRDELBEE est une plateforme d'appropriation du développement territorial créée par ARRDEL.",
+                "ARRDELBEE a été conçue par ARRDEL comme une plateforme visant à favoriser l'appropriation du développement territorial.",
+                "Il s'agit de ARRDELBEE, une plateforme développée par ARRDEL pour encourager l'appropriation du développement territorial.",
+                "ARRDEL a créé ARRDELBEE dans le but de promouvoir l'appropriation du développement territorial au moyen d'une plateforme dédiée.",
+                "La plateforme ARRDELBEE, développée par ARRDEL, a pour objectif de favoriser l'appropriation du développement territorial."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Objectif d'ARRDELBEE",
+            "patterns": [
+                "Quel est l'objectif de la plateforme ARRDELBEE ?",
+                "A quoi sert la plateforme ARRDELBEE ?",
+                "Quel est le dessein visé par la plateforme ARRDELBEE ?",
+                "C'est quoi l'objectif de la plateforme ARRDELLBEE ?",
+                "Quel est le dessein de la plateforme ARRDELBEE ?",
+                "Quel est le but de la plateforme ARRDELBEE ?",
+                "Quel objectif la plateforme ARRDELBEE cherche-t-elle à atteindre ?",
+                "Pouvez-vous me dire quel est l'objectif de la plateforme ARRDELBEE ?",
+                "À quoi la plateforme ARRDELBEE aspire-t-elle comme objectif principal ?",
+                "Quel dessein est recherché par la plateforme ARRDELBEE ?",
+                "En quoi consiste l'objectif de la plateforme ARRDELBEE ?",
+                "C'est quoi la finalité poursuivie par la plateforme ARRDELBEE ?",
+                "Quel est le but que la plateforme ARRDELBEE cherche à accomplir ?",
+                "Pouvez-vous expliquer le dessein de la plateforme ARRDELBEE ?",
+                "Quelle est la raison d'être de la plateforme ARRDELBEE ?",
+                "Quel est le but ultime que la plateforme ARRDELBEE vise ?",
+                "À quel objectif la plateforme ARRDELBEE cherche-t-elle à répondre ?"
+            ],
+            "responses": [
+                "L'objectif de la plateforme ARRDELBEE est de faciliter l'accès aux informations et aux ressources nécessaires pour le développement territorial.",
+                "La plateforme ARRDELBEE vise à rendre plus accessible les informations et les ressources essentielles au développement territorial.",
+                "L'objectif fondamental de la plateforme ARRDELBEE consiste à simplifier l'accès aux informations et aux ressources requises pour favoriser le développement territorial.",
+                "La plateforme ARRDELBEE se donne pour mission de rendre aisée la consultation des informations et l'accès aux ressources indispensables au développement territorial.",
+                "ARRDELBEE s'engage à faciliter la consultation des informations et à rendre accessibles les ressources nécessaires pour le développement territorial.",
+                "L'ambition de la plateforme ARRDELBEE est de rendre plus aisé l'accès aux informations et aux ressources indispensables au développement territorial.",
+                "ARRDELBEE aspire à simplifier l'accessibilité aux informations et aux ressources cruciales pour le développement territorial.",
+                "La plateforme ARRDELBEE s'efforce de rendre disponibles les informations et les ressources essentielles pour favoriser le développement territorial de manière plus pratique."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Fonctionnement d'ARRDELBEE",
+            "patterns": [
+                "Comment fonctionne la plateforme ARRDELBEE ?",
+                "Quelle est la mécanique opérationnelle de la plateforme ARRDELBEE ?",
+                "comment ca marche ?",
+                "C'est quoi le fonctionnement d'ARRDELBEE ?",
+                "De quelle manière la plateforme ARRDELBEE opère-t-elle ?",
+                "Comment la plateforme ARRDELBEE opère-t-elle ?",
+                "Quel est le mode de fonctionnement de la plateforme ARRDELBEE ?",
+                "Pourriez-vous expliquer le fonctionnement de la plateforme ARRDELBEE ?",
+                "Quelle est la procédure opérationnelle de la plateforme ARRDELBEE ?",
+                "Pouvez-vous décrire comment la plateforme ARRDELBEE fonctionne en détail ?",
+                "Comment est-ce que ARRDELBEE fonctionne concrètement ?",
+                "Quelle est la manière dont ARRDELBEE opère en pratique ?",
+                "Pouvez-vous m'expliquer le mode de fonctionnement de la plateforme ARRDELBEE ?",
+                "Quel est le mécanisme opérationnel de la plateforme ARRDELBEE ?",
+                "C'est quoi la mécanique derrière le fonctionnement d'ARRDELBEE ?",
+                "Comment s'effectue le fonctionnement de la plateforme ARRDELBEE ?",
+                "Quel est le processus par lequel la plateforme ARRDELBEE réalise ses opérations ?"
+            ],
+            "responses": [
+                "La plateforme ARRDELBEE fonctionne comme un portail en ligne qui permet aux utilisateurs d'accéder à des informations, des outils et des ressources pour le développement territorial.",
+                "La plateforme ARRDELBEE agit en tant que portail en ligne donnant aux utilisateurs la possibilité d'atteindre des informations, des outils et des ressources pour le développement territorial.",
+                "En tant que portail en ligne, la plateforme ARRDELBEE offre aux utilisateurs un accès aux informations, aux outils et aux ressources pour le développement territorial.",
+                "La plateforme ARRDELBEE opère comme une passerelle en ligne facilitant l'accès des utilisateurs à des informations, des outils et des ressources pour le développement territorial.",
+                "Fonctionnant tel un portail en ligne, la plateforme ARRDELBEE donne aux utilisateurs la possibilité de se connecter à des informations, des outils et des ressources pour le développement territorial."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Utilisateurs possibles d'ARRDELBEE",
+            "patterns": [
+                "Qui peut utiliser la plateforme ARRDELBEE ?",
+                "Quels sont les utilisateurs potentiels de la plateforme ARRDELBEE ?",
+                "Qui a la possibilité d'utiliser la plateforme ARRDELBEE ?",
+                "Quelles personnes sont autorisées à utiliser la plateforme ARRDELBEE ?",
+                "Qui a accès à la plateforme ARRDELBEE ?"
+            ],
+            "responses": [
+                "La plateforme ARRDELBEE est accessible à tous les acteurs du développement territorial, y compris les collectivités territoriales, les opérateurs économiques et les populations.",
+                "La plateforme ARRDELBEE est ouverte à tous les acteurs impliqués dans le développement territorial, incluant les collectivités territoriales, les opérateurs économiques et les populations.",
+                "Tous les acteurs du développement territorial, y compris les collectivités territoriales, les opérateurs économiques et les populations, ont la possibilité d'accéder à la plateforme ARRDELBEE.",
+                "La plateforme ARRDELBEE est disponible pour l'ensemble des intervenants du développement territorial, notamment les collectivités territoriales, les opérateurs économiques et les populations.",
+                "Tous les acteurs impliqués dans le développement territorial, à savoir les collectivités territoriales, les opérateurs économiques et les populations, peuvent utiliser la plateforme ARRDELBEE."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Outils d'ARRDELBEE",
+            "patterns": [
+                "Quels sont les outils disponibles sur la plateforme ARRDELBEE ?",
+                "Quels sont les dispositifs disponibles sur la plateforme ARRDELBEE?",
+                "Qu'est-ce que la plateforme ARRDELBEE présente comme outils?",
+                "De quels outils dispose-t-on sur la plateforme ARRDELBEE?"
+            ],
+            "responses": [
+                "La plateforme ARRDELBEE propose une variété d'outils pour le développement territorial, tels que des guides pratiques, des modèles de planification, des études de cas et des ressources financières.",
+                "la plateforme ARRDELBEE présente pludieurs outils pour le développement territorial, tels que des guides pratiques, des modèles de planification, des études de cas et des ressources financières",
+                "La plateforme ARRDELBEE offre une pluralité d'outils pour le développement territorial, incluant des guides pratiques, des modèles de planification, des études de cas et des ressources financières."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "L'accès à ARRDELBEE",
+            "patterns": [
+                "Comment accéder à la plateforme ARRDELBEE ?",
+                "Comment peut-on accéder à la plateforme ARRDELBEE?",
+                "Quelle est la méthode d'accès à la plateforme ARRDELBEE?",
+                "Comment peut-on se connecter à la plateforme ARRDELBEE?"
+            ],
+            "responses": [
+                "La plateforme ARRDELBEE est accessible en ligne à partir du site web d'ARRDEL.",
+                "La plateforme ARRDELBEE est accessible en ligne via le site web d'ARRDEL.",
+                "On peut y accéder en ligne à partir du site web d'ARRDEL."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Gratuité d'ARRDELBEE",
+            "patterns": [
+                "La plateforme ARRDELBEE est-elle gratuite ?",
+                "La plateforme ARRDELBEE est-elle offerte gratuitement?",
+                "Est-ce que l'utilisation de la plateforme ARRDELBEE est gratuite?",
+                "Est-ce que l'accès à la plateforme ARRDELBEE est gratuit?"
+            ],
+            "responses": [
+                "Oui, la plateforme ARRDELBEE est entièrement gratuite.",
+                "Oui, la plateforme ARRDELBEE est complètement gratuite.",
+                "Oui, l'utilisation de la plateforme ARRDELBEE est entièrement gratuite."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Inscription sur ARRDELBEE",
+            "patterns": [
+                "Comment s'inscrire sur la plateforme ARRDELBEE ?",
+                "Comment s'inscrire ?",
+                "Quelle est la procédure d'inscription sur la plateforme ARRDELBEE?",
+                "Comment procéder à l'inscription sur la plateforme ARRDELBEE?",
+                "Comment peut-on créer un compte sur la plateforme ARRDELBEE? ",
+                "Comment peut-on s'enregistrer sur la plateforme ARRDELBEE?"
+            ],
+            "responses": [
+                "Pour s'inscrire sur la plateforme ARRDELBEE, il suffit de créer un compte en ligne en fournissant des informations de base telles que le nom, l'adresse e-mail et le mot de passe.",
+                "Il suffit de fournir quelques informations de base telles que le nom, l'adresse e-mail et le mot de passe.",
+                "L'inscription sur la plateforme ARRDELBEE est simple : il suffit de créer un compte en ligne en fournissant des informations de base telles que le nom, l'adresse e-mail et le mot de passe."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Recherche des ressources sur ARRDELBEE",
+            "patterns": [
+                "Comment trouver des ressources sur la plateforme ARRDELBEE ?",
+                "Quelle méthode est utilisée pour trouver des ressources sur la plateforme ARRDELBEE?",
+                "Comment accéder aux ressources disponibles sur la plateforme ARRDELBEE?",
+                "De quelle manière les utilisateurs peuvent-ils dénicher des ressources sur la plateforme ARRDELBEE?"
+            ],
+            "responses": [
+                "Les utilisateurs peuvent trouver des ressources sur la plateforme ARRDELBEE en utilisant la fonction de recherche ou en naviguant dans les différentes catégories de ressources.",
+                "Ils peuvent utiliser la fonction de recherche ou parcourir les différentes catégories de ressources.",
+                "Les utilisateurs peuvent trouver des ressources sur la plateforme ARRDELBEE en utilisant la fonction de recherche ou en naviguant dans les différentes catégories de ressources."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Obtention des ressources sur ARRDELBEE",
+            "patterns": [
+                "Comment télécharger des ressources sur la plateforme ARRDELBEE ?",
+                "Pouvez-vous m'indiquer la procédure pour télécharger des ressources sur la plateforme ARRDELBEE ?",
+                "Quelle est la démarche à suivre pour obtenir des ressources depuis la plateforme ARRDELBEE ?",
+                "Comment est-ce que je peux télécharger des ressources sur la plateforme ARRDELBEE ?",
+                "Pourriez-vous expliquer comment procéder au téléchargement de ressources sur ARRDELBEE ?",
+                "C'est quoi le processus de téléchargement de ressources sur la plateforme ARRDELBEE ?",
+                "Quelle est la marche à suivre pour accéder et télécharger des ressources depuis ARRDELBEE ?",
+                "Comment puis-je récupérer des ressources sur la plateforme ARRDELBEE ?",
+                "Pouvez-vous me guider sur la manière de télécharger des ressources depuis ARRDELBEE ?",
+                "Quels sont les étapes pour télécharger des ressources sur la plateforme ARRDELBEE ?",
+                "Est-ce que vous pourriez me dire comment accéder aux ressources téléchargeables sur ARRDELBEE ?"
+            ],
+            "responses": [
+                "Les utilisateurs peuvent télécharger des ressources sur la plateforme ARRDELBEE en cliquant sur le bouton de téléchargement correspondant à la ressource souhaitée."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Partage des ressources sur ARRDELBEE",
+            "patterns": [
+                "Comment partager des ressources sur la plateforme ARRDELBEE ?",
+                "Quelle est la méthodologie pour partager des ressources sur la plateforme ARRDELBEE ?",
+                "De quelle manière les utilisateurs peuvent-ils partager des ressources sur la plateforme ARRDELBEE ?",
+                "Comment les utilisateurs peuvent-ils mettre en commun des ressources sur la plateforme ARRDELBEE ?",
+                "Quels sont les moyens disponibles pour partager des ressources sur la plateforme ARRDELBEE ?",
+                "Pourriez-vous expliquer comment je peux partager des ressources sur la plateforme ARRDELBEE ?",
+                "Quelle est la procédure pour mettre en commun des ressources sur la plateforme ARRDELBEE ?",
+                "Comment puis-je partager des ressources avec d'autres utilisateurs sur la plateforme ARRDELBEE ?",
+                "Pouvez-vous me dire comment les utilisateurs peuvent collaborer et partager des ressources sur la plateforme ARRDELBEE ?",
+                "C'est quoi la méthodologie pour mettre en commun des ressources sur ARRDELBEE ?",
+                "Quels sont les moyens disponibles pour que les utilisateurs partagent des ressources sur la plateforme ARRDELBEE ?",
+                "De quelle manière puis-je contribuer et partager des ressources sur la plateforme ARRDELBEE ?",
+                "Pouvez-vous me guider sur les étapes à suivre pour partager des ressources sur ARRDELBEE ?",
+                "Comment les utilisateurs peuvent-ils mettre à disposition des ressources sur la plateforme ARRDELBEE ?",
+                "Quelle est la méthodologie de partage de ressources sur la plateforme ARRDELBEE que vous recommandez ?"
+
+            ],
+            "responses": [
+                "Les utilisateurs peuvent partager des ressources sur la plateforme ARRDELBEE en utilisant la fonction de partage ou en soumettant une ressource pour publication.",
+                "Les utilisateurs peuvent utiliser la fonction de partage ou soumettre une ressource pour publication.",
+                "Les utilisateurs peuvent le faire en utilisant la fonction de partage ou en soumettant une ressource pour publication.",
+                "Les utilisateurs peuvent partager des ressources sur la plateforme ARRDELBEE en utilisant la fonction de partage ou en soumettant une ressource pour publication."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Contacter le support technique",
+            "patterns": [
+                "Comment contacter le support technique de la plateforme ARRDELBEE ?",
+                "Quelles sont les démarches pour contacter le support technique de la plateforme ARRDELBEE ?",
+                "Comment les utilisateurs peuvent-ils joindre le support technique de la plateforme ARRDELBEE ?",
+                "De quelle manière les utilisateurs peuvent-ils entrer en contact avec le support technique de la plateforme ARRDELBEE ?"
+            ],
+            "responses": [
+                "Les utilisateurs peuvent contacter le support technique de la plateforme ARRDELBEE en envoyant un e-mail à l'adresse info@arrdel.org.",
+                "En envoyant un e-mail à l'adresse info@arrdel.org.",
+                "Les utilisateurs peuvent contacter le support technique de la plateforme ARRDELBEE en envoyant un e-mail à l'adresse info@arrdel.org."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Signaler un problème",
+            "patterns": [
+                "Comment signaler un problème technique sur la plateforme ARRDELBEE ?",
+                "Quelle est la démarche à suivre pour rapporter un problème technique sur la plateforme ARRDELBEE ?",
+                "De quelle façon les utilisateurs peuvent-ils signaler un problème technique sur la plateforme ARRDELBEE ?",
+                "Comment peut-on indiquer un problème technique sur la plateforme ARRDELBEE ?"
+            ],
+            "responses": [
+                "Les utilisateurs peuvent signaler un problème technique sur la plateforme ARRDELBEE en envoyant un e-mail à l'adresse info@arrdel.org.",
+                "Ils peuvent signaler un problème en envoyant un e-mail à l'adresse info@arrdel.org.",
+                "Les utilisateurs peuvent le faire en envoyant un e-mail à l'adresse info@arrdel.org.",
+                "Les utilisateurs peuvent signaler un problème technique sur la plateforme ARRDELBEE en envoyant un e-mail à l'adresse info@arrdel.org."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Proposer des améliorations",
+            "patterns": [
+                "Comment proposer une amélioration de la plateforme ARRDELBEE ?",
+                "Quelle est la procédure pour suggérer une amélioration de la plateforme ARRDELBEE ?",
+                "De quelle manière les utilisateurs peuvent-ils proposer une amélioration de la plateforme ARRDELBEE ?",
+                "Comment peut-on suggérer une amélioration de la plateforme ARRDELBEE ?",
+                "Quel est le processus pour proposer une amélioration de la plateforme ARRDELBEE ?"
+            ],
+            "responses": [
+                "Les utilisateurs peuvent proposer une amélioration de la plateforme ARRDELBEE en envoyant un e-mail à l'adresse info@arrdel.org.",
+                "En envoyant un e-mail à l'adresse info@arrdel.org.",
+                "Les utilisateurs peuvent le faire en envoyant un e-mail à l'adresse info@arrdel.org.",
+                "Les utilisateurs peuvent proposer une amélioration de la plateforme ARRDELBEE en envoyant un e-mail à l'adresse info@arrdel.org."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Amélioration d'ARRDELBEE",
+            "patterns": [
+                "Comment contribuer à la plateforme ARRDELBEE ?",
+                "Pouvez-vous m'expliquer comment je peux contribuer à la plateforme ARRDELBEE ?",
+                "Quelle est la marche à suivre pour participer activement à la plateforme ARRDELBEE ?",
+                "Comment puis-je jouer un rôle actif et contribuer à l'évolution de la plateforme ARRDELBEE ?",
+                "Pouvez-vous me dire de quelle manière les utilisateurs peuvent contribuer à la plateforme ARRDELBEE ?",
+                "C'est quoi le processus de contribution à ARRDELBEE et comment puis-je m'y engager ?",
+                "Quels sont les moyens disponibles pour que les utilisateurs participent et contribuent à la plateforme ARRDELBEE ?",
+                "De quelle manière puis-je apporter ma contribution à la plateforme ARRDELBEE ?",
+                "Pouvez-vous me guider sur la manière dont je peux contribuer activement à ARRDELBEE ?",
+                "Comment les utilisateurs peuvent-ils s'impliquer et contribuer au développement de la plateforme ARRDELBEE ?",
+                "Quelle est la procédure recommandée pour contribuer efficacement à la plateforme ARRDELBEE ?"
+            ],
+            "responses": [
+                "Les utilisateurs peuvent contribuer à la plateforme ARRDELBEE en soumettant des ressources pour publication ou en partageant des informations sur les réseaux sociaux."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Financement d'ARRDELBEE",
+            "patterns": [
+                "Comment la plateforme ARRDELBEE est-elle financée ?",
+                "Comment est financée la plateforme ARRDELBEE ?",
+                "Qui finance la plateforme ?"
+            ],
+            "responses": [
+                "La plateforme ARRDELBEE est financée par ARRDEL et ses partenaires.",
+                "La plateforme ARRDELBEE est financée par des sources diverses, notamment des subventions publiques, des contributions des partenaires et des utilisateurs, des revenus générés par des services payants, et des investissements privés."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Gestion d'ARRDELBEE",
+            "patterns": [
+                "Comment la plateforme ARRDELBEE est-elle gérée ?",
+                "Comment est administrée la plateforme ARRDELBEE ?",
+                "Comment se passe la gestion de la plateforme ?ARRDELBEE ?"
+            ],
+            "responses": [
+                "La plateforme ARRDELBEE est gérée par ARRDEL et son équipe de développement.",
+                "La plateforme ARRDELBEE est gérée et administrée par une équipe de professionnels expérimentés en développement territorial, en technologie de l'information et en gestion de projet, qui travaillent en étroite collaboration avec les partenaires et les utilisateurs pour assurer la qualité et la pertinence des services."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Mise à jour d'ARRDELBEE",
+            "patterns": [
+                "Comment la plateforme ARRDELBEE est-elle mise à jour ?",
+                "Comment est assurée la mise à jour de la plateforme ARRDELBEE ?"
+            ],
+            "responses": [
+                "La plateforme ARRDELBEE est mise à jour régulièrement par ARRDEL et son équipe de développement.",
+                "La plateforme ARRDELBEE bénéficie de mises à jour régulières effectuées par ARRDEL et son équipe de développement."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Sécurité d'ARRDELBEE",
+            "patterns": [
+                "Comment la plateforme ARRDELBEE est-elle sécurisée ?",
+                "Comment la plateforme ARRDELBEE est-elle maintenue sécurisée ?",
+                "La plateforme est elle sécurisée ?"
+            ],
+            "responses": [
+                "La plateforme ARRDELBEE est sécurisée par des mesures de sécurité informatique telles que des pare-feu et des protocoles de cryptage.",
+                "La plateforme ARRDELBEE est sécurisée en utilisant des protocoles de sécurité avancés pour protéger les données et les informations des utilisateurs, en respectant les normes de confidentialité et de protection des données personnelles, et en surveillant en permanence les activités suspectes ou malveillantes.",
+                "La plateforme est sécurisée a travers ses protocoles de sécurité informatique tels que des pare-feu et des techniques de chiffrement assurent la sécurité de la plateforme ARRDELBEE."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Accessibilité d'ARRDELBEE N1",
+            "patterns": [
+                "La plateforme ARRDELBEE est-elle accessible aux personnes handicapées ?",
+                "Est-ce que la plateforme ARRDELBEE est accessible aux personnes handicapées ?"
+            ],
+            "responses": [
+                "Oui, la plateforme ARRDELBEE est accessible aux personnes handicapées.",
+                "Tout à fait, la plateforme ARRDELBEE est accessible aux personnes handicapées."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Accessibilité d'ARRDELBEE N2",
+            "patterns": [
+                "Comment la plateforme ARRDELBEE est-elle accessible aux personnes ayant des besoins spécifiques ?",
+                "Est-ce que la plateforme ARRDELBEE est accessible aux personnes ayant des besoins spécifiques ?"
+            ],
+            "responses": [
+                "La plateforme ARRDELBEE est accessible aux personnes ayant des besoins spécifiques en proposant des fonctionnalités d'accessibilité pour les personnes handicapées, en utilisant des formats de données ouverts et interopérables pour faciliter l'utilisation par des outils d'assistance, et en fournissant des informations dans des langues et des formats adaptés aux différents publics."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Evolutivité d'ARRDELBEE",
+            "patterns": [
+                "Comment la plateforme ARRDELBEE est-elle évolutive ?"
+            ],
+            "responses": [
+                "La plateforme ARRDELBEE est évolutive en utilisant des technologies et des architectures flexibles pour permettre l'ajout de nouvelles fonctionnalités et de nouveaux services, en s'adaptant aux besoins et aux demandes des utilisateurs, et en intégrant les innovations technologiques et les tendances du marché."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Utilisation d'ARRDELBEE N1",
+            "patterns": [
+                "Comment la plateforme ARRDELBEE est-elle utilisée dans les projets de développement territorial ?"
+            ],
+            "responses": [
+                "La plateforme ARRDELBEE est utilisée dans les projets de développement territorial en fournissant des informations et des ressources pour la planification et la mise en œuvre des projets, en facilitant la coordination et la collaboration entre les acteurs locaux, et en contribuant à la surveillance et à l'évaluation des projets."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Utilisation d'ARRDELBEE N2",
+            "patterns": [
+                "Comment la plateforme ARRDELBEE est-elle utilisée dans les projets de coopération internationale ?"
+            ],
+            "responses": [
+                "La plateforme ARRDELBEE est utilisée dans les projets de coopération internationale en favorisant l'échange d'expériences et de bonnes pratiques entre les pays et les régions, en renforçant les capacités des acteurs locaux pour la planification et la gestion du développement territorial, et en contribuant à la réalisation des objectifs de développement durable."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Utilisation d'ARRDELBEE N3",
+            "patterns": [
+                "Comment la plateforme ARRDELBEE est-elle utilisée dans les projets de recherche et d'innovation ?"
+            ],
+            "responses": [
+                "La plateforme ARRDELBEE est utilisée dans les projets de recherche et d'innovation en fournissant des données et des informations pour la conception et la mise en œuvre des projets, en facilitant la collaboration entre les chercheurs et les acteurs locaux, et en contribuant à la diffusion et à l'application des résultats de la recherche."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Utilisation d'ARRDELBEE N4",
+            "patterns": [
+                "Comment la plateforme ARRDELBEE est-elle utilisée dans les projets de formation et de renforcement des capacités ?"
+            ],
+            "responses": [
+                "La plateforme ARRDELBEE est utilisée dans les projets de formation et de renforcement des capacités en fournissant des ressources et des outils pour la formation et l'apprentissage en ligne, en facilitant la collaboration entre les formateurs et les apprenants, et en contribuant à l'amélioration de la qualité et de la pertinence de la formation."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Utilisation d'ARRDELBEE N5",
+            "patterns": [
+                "Comment la plateforme ARRDELBEE est-elle utilisée dans les projets de mobilisation citoyenne et de participation démocratique ?"
+            ],
+            "responses": [
+                "La plateforme ARRDELBEE est utilisée dans les projets de mobilisation citoyenne et de participation démocratique en fournissant des outils et des ressources pour la participation en ligne, en facilitant la communication et la collaboration entre les citoyens et les autorités locales, et en contribuant à la transparence et à la redevabilité des processus décisionnels."
+            ],
+            "context_set": ""
+        }
+    ]
+}

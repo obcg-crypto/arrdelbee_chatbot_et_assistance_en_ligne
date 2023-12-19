@@ -1,0 +1,5 @@
+utiliser de préférence : Python 3.6.8
+
+python flask_app -- pour executer la version Web
+python Chatbot-GUI -- pour executer la version desktop
+python Chatbot_v2_CLI -- pour executer la version en invite de commande 
