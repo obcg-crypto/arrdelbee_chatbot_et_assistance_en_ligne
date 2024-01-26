@@ -1,7 +1,14 @@
-utiliser de préférence : Python 3.6.8
+projet INTRANET MOOC  Angular express MongoDB
 
-pip install -r requirements.txt
+projet SMSWebApp Angular express MongoDB
 
-python flask_app -- pour executer la version Web
-python Chatbot-GUI -- pour executer la version desktop
-python Chatbot_v2_CLI -- pour executer la version en invite de commande 
+projet site web tutoriel Terraform html css javascript
+
+Chatbot ARRDELLBee python flask
+
+projet Application de gestion d'une cafétaria ANGULAR EXPRESS MONGODB
+
+Refactoring de l'application metier ENERGIZER React,SpringBoot,ORACLE
+
+Application de gestion du dimensionnement hydrolique d'un barrage ANGULAR
+

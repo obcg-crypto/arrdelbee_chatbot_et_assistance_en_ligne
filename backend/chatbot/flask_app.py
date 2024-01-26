@@ -7,17 +7,48 @@ from nltk.stem import WordNetLemmatizer
 import pickle
 from keras.models import load_model
 from flask_cors import CORS, cross_origin
+from flask_pymongo import PyMongo
+
 
 
 app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
+
+
+
+
+
+# Configuration de la connexion à MongoDB
+app.config["MONGO_URI"] = "mongodb://localhost:27017/chatbot" # Remplacez 'yourDatabase' par le nom de votre base de données
+mongo = PyMongo(app)
+
+@app.route('/save_conversation', methods=['POST'])
+def save_conversation():
+    data = request.json
+    
+    # Validation des données reçues
+    if not data or 'user_input' not in data or 'bot_response' not in data:
+        return jsonify({'error': 'Invalid data'}), 400
+
+    # Enregistrement des données dans MongoDB
+    try:
+        mongo.db.conversations.insert_one(data)
+        return jsonify({'message': 'Conversation saved successfully'}), 201
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+
+
 model = load_model('chatbot_model.h5')
 lemmatizer = WordNetLemmatizer()
-intents = json.loads(open('intents.json').read())
+intents = json.loads(open('intents.json').read()) # encoding='utf-8'
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
+
+
 
 @app.route("/")
 def home():
@@ -39,6 +70,7 @@ def chat_api():
     user_input = data['user_input']
     bot_response = get_bot_response(user_input, show_details=False)
     response_data = {"user_input": user_input, "bot_response": bot_response}
+
     return jsonify(response_data)
 
 

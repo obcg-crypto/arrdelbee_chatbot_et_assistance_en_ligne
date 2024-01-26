@@ -481,6 +481,16 @@
                 "La plateforme ARRDELBEE est utilisée dans les projets de mobilisation citoyenne et de participation démocratique en fournissant des outils et des ressources pour la participation en ligne, en facilitant la communication et la collaboration entre les citoyens et les autorités locales, et en contribuant à la transparence et à la redevabilité des processus décisionnels."
             ],
             "context_set": ""
+        },
+        {
+            "tag": "ODD",
+            "patterns": [
+                "C'est quoi les objectifs de developpement durable ?"
+            ],
+            "responses": [
+                "Les Objectifs de développement durable (ODD) sont un ensemble de 17 objectifs mondiaux établis par les Nations Unies dans le cadre de l'Agenda 2030 pour le développement durable. Adoptés en septembre 2015, ces objectifs visent à résoudre certains des défis les plus pressants auxquels la planète est confrontée. Les ODD abordent des questions telles que la pauvreté, la faim, la santé, l'éducation, l'égalité des sexes, l'eau propre, l'assainissement, les énergies propres, le travail décent, la croissance économique, l'innovation, la réduction des inégalités, la paix et la justice, entre autres"
+            ],
+            "context_set": ""
         }
     ]
 }
